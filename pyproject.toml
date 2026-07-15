@@ -1,0 +1,20 @@
+[project]
+name = "autoventas-pro"
+version = "1.0.0"
+description = "Sistema académico de cotización y gestión de ventas de vehículos"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "nicegui>=2.0,<4.0",
+    "openpyxl>=3.1,<4.0",
+    "python-dotenv>=1.0,<2.0",
+    "reportlab>=4.0,<6.0",
+    "sqlalchemy>=2.0,<3.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=7.0,<10.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
