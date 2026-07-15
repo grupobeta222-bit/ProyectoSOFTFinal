@@ -61,7 +61,7 @@ Los botones abren WhatsApp y el cliente de correo; no envían mensajes automáti
 
 ## Asistente
 
-Necesita internet durante la demostración. Si no hay conexión, la página muestra un mensaje controlado y el resto del sistema continúa funcionando. La lógica de `agente_cli.py` y `groq_client.py` se conservó sin cambios por decisión del equipo.
+Necesita internet durante la demostración. Si no hay conexión, la página muestra un mensaje controlado y el resto del sistema continúa funcionando. La integración con Groq se conservó sin cambios por decisión del equipo. En `agente_cli.py` solo se ajustaron las instrucciones para mostrar primero los identificadores de vehículos y planes.
 
 ## Responsables principales
 
