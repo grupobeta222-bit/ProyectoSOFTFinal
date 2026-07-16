@@ -13,6 +13,17 @@ uv run python run_ui.py
 
 Abrir `http://127.0.0.1:8080`. La base `autoventas.db` se crea automáticamente con vehículos, planes, cinco asesores y cotizaciones demo de los últimos tres meses.
 
+## Despliegue en Render
+
+Configurar el servicio con estos comandos:
+
+```text
+Build Command: pip install -r requirements.txt
+Start Command: python -m src.interfaces.presentation.app_ui
+```
+
+La aplicación escucha en `0.0.0.0` y utiliza automáticamente el puerto definido por Render.
+
 Pruebas:
 
 ```bash
