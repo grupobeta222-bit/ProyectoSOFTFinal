@@ -50,7 +50,7 @@ class AgenteConversacional:
             "   /financiamiento - Planes de financiamiento\n"
             "   /contacto - Contacto y asesores\n"
             "   /login - Inicio de sesión\n"
-             "2. Cuando menciones un vehículo, pon el ID primero: (VEH-001) Toyota Corolla, (VEH-002) Toyota RAV4. Si es un plan: (PLAN-001) Plan Clásico. Si preguntan características, dáselas completas (precio, motor, transmisión, combustible, stock).\n"
+            "2. Cuando menciones un vehículo, pon el ID primero: (VEH-001) Toyota Corolla, (VEH-002) Toyota RAV4. Si es un plan: (PLAN-001) Plan Clásico. Si preguntan características, dáselas completas (precio, motor, transmisión, combustible, stock).\n"
             "3. Si preguntan comparaciones, compáralos directamente en la conversación.\n"
             "4. Si el usuario quiere COTIZAR, guíalo paso a paso:\n"
             "   - ¿Qué vehículo le interesa?\n"

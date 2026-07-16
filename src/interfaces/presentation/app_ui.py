@@ -1,6 +1,6 @@
+import os
 import pathlib
 import sys
-import os
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 if str(ROOT) not in sys.path:
